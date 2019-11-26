@@ -1,4 +1,4 @@
-logo{
+.logo{
 	float: left;
 	padding-left: 30px;
 	width: 150px;
@@ -261,4 +261,5 @@ logo{
 	text-align: center;
 	list-style-type: none;
   }
+  
   
