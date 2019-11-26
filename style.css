@@ -1,50 +1,89 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    background-color: lightpink;
+    width: 100%;
 }
 
-/*end reset styles
+
+@media only screen and (max-width: 1200px) {
+    #container {
+        background-color: lightsalmon;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+header {
+    height: 50px;
+    background-color: white;
+}
+
+#container {
+    width: 1024px;
+    height: auto;
+    background-color: lightsalmon;
+    margin: auto;
+}
+
+
+#logo {
+    display: inline-block;
+    background-image: url('https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png');
+    width: 100px;
+    height: 30px;
+    background-size: 100px 30px;
+    border-style: none;
+}
+
+#arrow-signin {
+    height: 24px;
+    width: 24px;
+}
+
+#sign-in-bar {
+    margin-top:20px;
+    display: inline-block;
+    float: right;
+    /*background-color: red;*/
+}
+
+#logo-container {
+    display: inline-block;
+}
+
+#signin-button {
+    position: relative;
+    right: 0;
+    bottom: 5px;
+    margin: auto 0;
+    background-color: lightskyblue;
+    color: whitesmoke;
+    align-content: center;
+    border-radius: 6px;
+    border-width: 0;
+    padding: 8px;
+    font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+    font-size: 11;
+}
+
+#search-bar {
+    display: inline-block;
+    width: 300px;
+    height: 27px;
+    margin-right: 0;
+}
+
+#search-bar-container {
+    display: inline-block;
+    width: auto;
+}
+
+#search-button {
+    display: inline-block;
+    margin-left: 0;
+    background-image: url('../img/magnifying-glass.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 27px;
+}
