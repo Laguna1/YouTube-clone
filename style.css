@@ -290,7 +290,7 @@ nav {
 	/*	padding-left: 30px; */
 	/*max-width: 66%;*/
 	border: 1px solid gainsboro;
-	background: white;
+	background: rgb(255, 255, 255);
 	overflow: hidden;
 }
 
@@ -299,7 +299,7 @@ nav {
 	padding-left: 30px;
 	/*max-width: 66%;*/
 	border: 1px solid gainsboro;
-	background: white;
+	background: rgb(255, 255, 255);
 	overflow: hidden;
 }
 
@@ -445,7 +445,7 @@ nav {
 .container {
 	display: flex;
 	background: rgb(223, 216, 216);
-	 height: 80px;
+	height: 80px;
 }
 
 .material-icons {
@@ -473,9 +473,10 @@ form {
 	display: flex;
 	height: 30px;
 }
-	.button2 {
-		margin-left: 219px
-	}
+
+.button2 {
+	margin-left: 219px
+}
 
 
 .container-form {
