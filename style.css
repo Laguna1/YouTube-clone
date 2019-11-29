@@ -32,6 +32,7 @@
   section{
 	font-family: Roboto, sans-serif;
 	font-size: 1.0em;
+	background-color: #EEEEEE;
 	
   }
   
@@ -148,7 +149,15 @@
   .container{
 	margin: auto;
 	padding-left: 30px;
-	max-width: 66%;
+/*max-width: 66%;*/
+	border: 1px solid gainsboro;
+	background: white;
+	overflow: hidden;
+  }
+  .container2{
+	margin: auto;
+	padding-left: 30px;
+/*max-width: 66%;*/
 	border: 1px solid gainsboro;
 	background: white;
 	overflow: hidden;
@@ -191,7 +200,7 @@
   }
   
   .options{
-	margin-left: 250px;
+/*	margin-left: 250px;  */
 	border-top: 1px solid gainsboro;
   }
   
@@ -265,15 +274,22 @@
 	display: block;
 	border: 1px solid red;
 }
-
+/* body styles */
+body {
+	background-color: #EEEEEE;
+	height: 100%;
+}
 
 /* header */
 header {
-	position: fixed;
+/*	position: fixed; */
+height: 5%;
 	top: 0;
 	left: 0;
 	right: 0;
-}
+	background-color: #EEEEEE;
+} 
+
 header>div,
 nav {
 	align-items: center;
@@ -340,7 +356,8 @@ form {
 /*    left-side  */
 main {
 	display: flex;
-	margin-top: 100px; 
+/*	margin-top: 100px; */
+    height: 88%;
 	width: 100%;
 }
 .video-likes-dislakes {
@@ -364,4 +381,8 @@ main {
 }
 .right-side {
 	display: inline-block
+}
+footer {
+	height: 7%;
+	background-color: #EEEEEE;
 }
