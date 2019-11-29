@@ -289,7 +289,7 @@ nav {
 	margin: auto;
 	/*	padding-left: 30px; */
 	/*max-width: 66%;*/
-	border: 1px solid gainsboro;
+/*	border: 1px solid gainsboro; */
 	background: rgb(255, 255, 255);
 	overflow: hidden;
 }
@@ -421,7 +421,7 @@ div {
 
 /* body styles */
 body {
-	background-color: #EEEEEE;
+/*	background-color: #EEEEEE; */
 	height: 100%;
 }
 
@@ -444,7 +444,7 @@ nav {
 
 .container {
 	display: flex;
-	background: rgb(223, 216, 216);
+/*	background: rgb(223, 216, 216); */
 	height: 80px;
 }
 
@@ -527,7 +527,9 @@ main {
 	display: flex;
 	justify-content: space-between;
 }
-
+div.video-likes-dislakes {
+	color: #EEEEEE;
+}
 .video-likes-dislakes {
 	display: flex;
 	justify-content: flex-end;
