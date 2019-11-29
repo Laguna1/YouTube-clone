@@ -475,7 +475,7 @@ form {
 }
 
 .button2 {
-	margin-left: 219px
+	margin-left: 350px;
 }
 
 
@@ -531,6 +531,7 @@ div.video-likes-dislakes {
 	color: #EEEEEE;
 }
 .video-likes-dislakes {
+	margin-left: 30px;
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: row;
