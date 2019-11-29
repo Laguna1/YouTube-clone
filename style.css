@@ -444,7 +444,8 @@ nav {
 
 .container {
 	display: flex;
-	background: rgb(223, 216, 216) height: 80px;
+	background: rgb(223, 216, 216);
+	 height: 80px;
 }
 
 .material-icons {
@@ -471,8 +472,11 @@ nav {
 form {
 	display: flex;
 	height: 30px;
-
 }
+	.button2 {
+		margin-left: 219px
+	}
+
 
 .container-form {
 	/*	background-color: red;   */
