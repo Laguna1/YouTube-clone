@@ -522,6 +522,14 @@ main {
 	height: 88%;
 	width: 100%;
 }
+.video1 {
+	width: 925px;
+	height: 462px;
+}
+.video2 {
+	width: 200px; 
+	height: 153px;
+}
 
 .buttons-under-video {
 	display: flex;
