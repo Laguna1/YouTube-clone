@@ -525,10 +525,12 @@ main {
 .video1 {
 	width: 925px;
 	height: 462px;
+	border: 0px;
 }
 .video2 {
 	width: 200px; 
 	height: 153px;
+	border: 0px;
 }
 
 .buttons-under-video {
