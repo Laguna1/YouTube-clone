@@ -462,6 +462,10 @@ nav {
 	margin-top: 3px;
 	margin-left: 1px;
 }
+input {
+	width: 100%;
+	height: 24px;
+}
 
 .search {
 	width: 455px;
