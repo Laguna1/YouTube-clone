@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,29 +91,49 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /* ======== end reset style ======= */
 .logo {
 	float: left;
@@ -91,23 +179,24 @@ a:hover {
 }
 
 nav {
-    text-align: center;
+	text-align: center;
 	font-family: Helvetica, san-serif;
 	max-width: 100%;
 }
-div.first1{
-justify-content: flex-start;
-flex-direction: row;
+
+div.first1 {
+	justify-content: flex-start;
+	flex-direction: row;
 }
 
 .container {
 	margin: auto;
-    background: rgb(255, 255, 255);
+	background: rgb(255, 255, 255);
 	overflow: hidden;
 	display: flex;
 	justify-content: space-between;
 	height: 80px;
-	}
+}
 
 .container2 {
 	margin: auto;
@@ -128,78 +217,6 @@ flex-direction: row;
 	background: none;
 	text-decoration: underline;
 }
-/*
-.channelinks {
-	color: #767676;
-}
-
-.text {
-	font-size: .90em;
-	color: #767676;
-}
-*/
-.options {
-	border-top: 1px solid gainsboro;
-}
-
-.footbar {
-	list-style-type: none;
-	border: none;
-	padding: 0;
-}
-
-.footbar li {
-	display: inline-block;
-}
-
-.footop {
-	font-size: .90em;
-	padding: 0px 12px;
-	border: 1px solid gainsboro;
-	border-radius: 2px;
-	background: whitesmoke;
-}
-
-.footop:hover {
-	color: black;
-	background: #EEEEEE;
-}
-
-.flinks1,
-.flinks2 {
-	list-style-type: none;
-	border: none;
-	margin: 0;
-	padding: 0;
-}
-
-.flinks1 li {
-	display: inline-block;
-	font-size: .95em;
-	font-weight: bold;
-}
-
-.flinks2 li {
-	display: inline-block;
-	font-size: .90em;
-/*	color: #777777; */
-}
-
-.b1 {
-	color: black;
-}
-
-.b2 {
-/*	color: #777777;  */
-	font-weight: bold;
-}
-
-.b1:hover,
-.b2:hover {
-	text-decoration: underline;
-	background: none;
-	color: #039BE5;
-}
 
 div {
 	display: block;
@@ -208,12 +225,12 @@ div {
 
 /* body styles */
 body {
-   height: 100%;
+	height: 100%;
 }
 
 /* header */
 header {
-    height: 5%;
+	height: 5%;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -227,13 +244,12 @@ nav {
 	width: 100%;
 }
 
-
-
 .material-icons {
 	justify-content: center;
 	margin-left: 10px;
 }
-.menu-left{
+
+.menu-left {
 	margin-left: 15px;
 }
 
@@ -241,14 +257,17 @@ nav {
 	height: 24px;
 	width: 129px;
 }
+
 .left1 {
 	display: flex;
 }
+
 .logo img {
 	width: 78px;
 	margin-top: 3px;
 	margin-left: 1px;
 }
+
 input {
 	width: 100%;
 	height: 24px;
@@ -298,7 +317,7 @@ form {
 .button-right {
 	display: flex;
 	margin-left: 83px;
-    margin-right: 15px;
+	margin-right: 15px;
 }
 
 .btn {
@@ -308,31 +327,37 @@ form {
 /*    left-side  */
 main {
 	display: flex;
-    margin-left: 30px;
+	margin-left: 30px;
 	height: 88%;
 	width: 100%;
 }
+
 .video1 {
 	width: 800px;
 	height: 462px;
 	border: 0px;
 }
+
 .video2 {
-	width: 263px; 
+	width: 263px;
 	height: 153px;
 	border: 0px;
 	margin-bottom: 10px;
 }
+
 .content-under-video {
 	margin-top: 10px;
 }
+
 .buttons-under-video {
 	display: flex;
 	justify-content: space-between;
 }
+
 div.video-likes-dislakes {
 	color: #EEEEEE;
 }
+
 .video-likes-dislakes {
 	margin-left: 30px;
 	display: flex;
@@ -359,16 +384,13 @@ div.video-likes-dislakes {
 	display: inline-block;
 	margin-left: 30px;
 }
+
 h1 {
 	font-family: Roboto, Arial, sans-serif;
-    font-size: 20px;
-}
-p {
-	font-family: Roboto, Arial, sans-serif;
-    font-size: 13px;
+	font-size: 20px;
 }
 
-footer {
-	height: 7%;
-	background-color: #EEEEEE;
+p {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 13px;
 }
