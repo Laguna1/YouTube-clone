@@ -135,6 +135,21 @@ table {
 }
 
 /* ======== end reset style ======= */
+
+header {
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid gainsboro;
+  overflow: hidden;
+}
+
+aside {
+  float: left;
+  max-width: 250px;
+  border-right: 1px solid gainsboro;
+}
+
 div {
   display: block;
 }
@@ -147,7 +162,6 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #eeeeee;
 }
 
 header > div,
@@ -261,17 +275,10 @@ div.video-likes-dislakes {
   width: 680px;
 }
 
-/* right side  */
 .right-side {
   display: inline-block;
   margin-left: 3em;
 }
-
-footer {
-  height: 7%;
-  background-color: #eeeeee;
-}
-
 .wrapper {
   width: 80%;
   margin: 0 auto;
