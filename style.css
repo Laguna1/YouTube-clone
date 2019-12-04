@@ -286,6 +286,7 @@ form {
 
 .button2 {
 	margin-left: 350px;
+	padding: 8px;
 	background-color: red;
 }
 
@@ -347,6 +348,8 @@ main {
 
 .content-under-video {
 	margin-top: 10px;
+	margin-bottom: 35px;
+	border-bottom: 1px solid #cdcdcd;
 }
 
 .buttons-under-video {
