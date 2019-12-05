@@ -323,7 +323,7 @@ div.video-likes-dislakes {
 
 .icon {
   background: transparent;
-  border: none;
+  border: none; 
 }
 
 .small-video {
@@ -416,7 +416,7 @@ p {
 }
 
 iframe {
-  width: 645px;
+  width: 678px;
   height: 360px;
 }
 
@@ -427,4 +427,7 @@ iframe {
 
 .smalltitle {
   font-weight: bold;
+}
+.left-side {
+  padding-right: 40px;
 }
