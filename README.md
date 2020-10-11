@@ -29,7 +29,12 @@ youtube video player page as this example.
 
 ### Authors
 
-[Oksana](hhtps://github.com/Laguna1)
-[Sheyla](hhtps://github.com/sheylaPozo)
+- Github:[@Laguna1](https://github.com/Laguna1)
+- Linkedin: [Oksana Petrova](https://www.linkedin.com/in/oksana-petrova-005bb0145/)
+
+- Github:[Sheyla Pozo](https://github.com/sheylaPozo)
+- Linkedin: [Sheyla Pozo](https://www.linkedin.com/in/sheypozo/)
+
+
 =======
 
